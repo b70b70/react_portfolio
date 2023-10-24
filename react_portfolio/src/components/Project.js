@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Project({ project }) {
   return (
-    <div>
+    <div className="container text-center mt-5">
       <h2>{project.title}</h2>
       <p>
-        <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
+        <a href={project.deployedLink} target="_blank">
           Deployed Version
         </a>
       </p>
       <p>
-        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={project.githubLink} target="_blank">
           GitHub Repository
         </a>
       </p>

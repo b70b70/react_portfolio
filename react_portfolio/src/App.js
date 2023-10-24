@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectsPage';
 import ContactPage from './components/ContactPage';
 import ProjectDetail from './components/ProjectDetail';
+import 'bootstrap/dist/css/bootstrap.css'; // Import Bootstrap CSS
 
 
 

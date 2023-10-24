@@ -4,14 +4,16 @@
       "title": "Project 1",
       "description": "Description of Project 1.",
       "image": "/images/project1.jpg",
-      "link": "https://github.com/yourproject1"
+      "deployedLink": "https://yourdeployedlink.com",
+      "githubLink": "https://github.com/yourproject1"
     },
     {
       "id": 2,
       "title": "Readme_Generator",
       "description": "README generator, after the user's input, an md file will be created as the purpose for a README.md file",
       "image": "../assets/preview_readme_gen",
-      "link": "https://github.com/b70b70/readme_generator"
+      "deployedLink": "https://drive.google.com/file/d/1Xpz6ujv7q27ZvBAKFyxbdghV8KZJKKZ7/view",
+      "githubLink": "https://github.com/b70b70/readme_generator"
     }
-    
   ]
+  

@@ -1,25 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectData from '../projects.json';
-import Project from './Project';
 
 function ProjectsPage() {
-    return (
-      <div>
-        <h1>Projects</h1>
-        <ul>
-          {projectData.map((project) => (
-            <li key={project.id}>
-              <Link to={`/projects/${project.id}`}>{project.title}</Link>
-            </li>
-          ))}
-        </ul>
-        <hr />
+  return (
+    <div className="container mt-4">
+      <h1 className="mb-4">Projects</h1>
+      <p className="text-muted">Select a project below to view it.</p>
+      <ul className="list-group">
         {projectData.map((project) => (
-          <Project key={project.id} project={project} />
+          <li key={project.id} className="list-group-item">
+            <Link to={`/projects/${project.id}`}>{project.title}</Link>
+          </li>
         ))}
-      </div>
-    );
-  }
-  
-  export default ProjectsPage;
+      </ul>
+    </div>
+  );
+}
+
+export default ProjectsPage;
