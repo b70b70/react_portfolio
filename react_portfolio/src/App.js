@@ -1,42 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectsPage';
 import ContactPage from './components/ContactPage';
+import ProjectDetail from './components/ProjectDetail';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      currentPage: 'home',
-    };
-  }
 
-  handleNavigation = (page) => {
-    this.setState({ currentPage: page });
-  };
 
-  renderPage() {
-    switch (this.state.currentPage) {
-      case 'home':
-        return <HomePage />;
-      case 'projects':
-        return <ProjectsPage />;
-      case 'contact':
-        return <ContactPage />;
-      default:
-        return <HomePage />;
-    }
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <Header onNavigate={this.handleNavigation} />
-        {this.renderPage()}
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Header /> {/* Include the Header component */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
+
