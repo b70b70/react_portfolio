@@ -5,12 +5,12 @@ function Project({ project }) {
     <div className="container text-center mt-5">
       <h2>{project.title}</h2>
       <p>
-        <a href={project.deployedLink} target="_blank">
+        <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed Version
         </a>
       </p>
       <p>
-        <a href={project.githubLink} target="_blank">
+        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
           GitHub Repository
         </a>
       </p>
