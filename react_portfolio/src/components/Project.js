@@ -4,6 +4,7 @@ function Project({ project }) {
   return (
     <div className="container text-center mt-5">
       <h2>{project.title}</h2>
+      <p>{project.description}</p> {/* Display the description */}
       <p>
         <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
           Deployed Version
