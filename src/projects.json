@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "title": "Console-Finances",
+      "description": "This is a simple financial analysis script that calculates various financial months based on a provided dataset of monthly profits",
+      "image": "https://github.com/b70b70/Console-Finances/raw/main/preview.png",
+      "deployedLink": "https://b70b70.github.io/Console-Finances/",
+      "githubLink": "https://github.com/b70b70/Console-Finances"
+    },
+    {
+      "id": 2,
+      "title": "Readme_Generator",
+      "description": "README generator, after the user's input, an md file will be created as the purpose for a README.md file",
+      "image": "https://github.com/b70b70/readme_generator/raw/main/assets/images/preview1.png", 
+      "deployedLink": "https://drive.google.com/file/d/1Xpz6ujv7q27ZvBAKFyxbdghV8KZJKKZ7/view",
+      "githubLink": "https://github.com/b70b70/readme_generator"
+    },
+    {
+        "id": 3,
+        "title": "Daily-Planner-App",
+        "description": "A simple calendar app for scheduling your work day. This application allows you to plan and organise your tasks throughout the day, ensuring efficient time management.",
+        "image": "https://github.com/b70b70/Daily-Planner-App-w-jquery/raw/main/preview.png", 
+        "deployedLink": "https://b70b70.github.io/Daily-Planner-App-w-jquery/",
+        "githubLink": "https://github.com/b70b70/Daily-Planner-App-w-jquery"
+      },
+      {
+        "id": 4,
+        "title": "Weather_Dashboard_using_API",
+        "description": "Using the 5 Day Weather Forecast API to retrieve weather data in cities for my weather dashboard",
+        "image": "https://github.com/b70b70/Weather_Dashboard_using_API/raw/main/preview.png", 
+        "deployedLink": "https://b70b70.github.io/Weather_Dashboard_using_API/",
+        "githubLink": "https://github.com/b70b70/Weather_Dashboard_using_API"
+      },
+      {
+        "id": 5,
+        "title": "Password_Generator_JS",
+        "description": "Powered by JavaScript app to randomly generate password for user. The generator is designed to create secure and customisable passwords by allowing users to choose from different sets of characters.",
+        "image": "https://github.com/b70b70/password-generator-w-JS/raw/main/preview_after.png", 
+        "deployedLink": "https://b70b70.github.io/password-generator-w-JS/",
+        "githubLink": "https://github.com/b70b70/password-generator-w-JS"
+      },
+      {
+        "id": 6,
+        "title": "interactive-quiz-coding-JS",
+        "description": "A timed quiz on JavaScript fundamentals that stores high scores.",
+        "image": "https://github.com/b70b70/interactive-quiz-coding-JS/raw/main/preview.png", 
+        "deployedLink": "https://b70b70.github.io/interactive-quiz-coding-JS/",
+        "githubLink": "https://github.com/b70b70/interactive-quiz-coding-JS"
+      }
+
+
+
+  ]
+  
