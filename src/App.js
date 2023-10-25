@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Header /> {/* Include the Header component */}
       <Routes>
-        <Route path="/react_portfolio" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
