@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.c4002c11.css",
-    "main.js": "/react_portfolio/static/js/main.8b197465.js",
+    "main.js": "/react_portfolio/static/js/main.6963e34a.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/CV_Faheem_Ali_.pdf": "/react_portfolio/static/media/CV_Faheem_Ali_.9a58cc5d3872a2fc71ff.pdf",
     "static/media/profile.jpg": "/react_portfolio/static/media/profile.0bf908d95df9e0353871.jpg",
     "index.html": "/react_portfolio/index.html",
     "main.c4002c11.css.map": "/react_portfolio/static/css/main.c4002c11.css.map",
-    "main.8b197465.js.map": "/react_portfolio/static/js/main.8b197465.js.map",
+    "main.6963e34a.js.map": "/react_portfolio/static/js/main.6963e34a.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4002c11.css",
-    "static/js/main.8b197465.js"
+    "static/js/main.6963e34a.js"
   ]
 }
