@@ -11,7 +11,7 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/react_portfolio" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
             <Link to="/projects" className="nav-link">Projects</Link>
