@@ -13,8 +13,8 @@ function HomePage() {
                 Portfolio of Vision and Design Excellence
               </h1>
               <p className="lead">
-                Hi, my name is Your Name, and I'm a Web Developer. I'm passionate about
-                programming, and I'm from Your Location. As a web developer, I always strive
+                Hi, my name is Faheem Ali, and I'm a Web Developer. I'm passionate about
+                programming, and I'm from Birmingham. As a web developer, I always strive
                 to combine creativity and problem-solving to build high-quality websites.
               </p>
               <hr className="my-4" />
