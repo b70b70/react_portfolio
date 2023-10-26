@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project({ project }) {
   return (
-    <div className="container text-center mt-5">
+    <div className="bg-primary">
       <h2>{project.title}</h2>
       <p>{project.description}</p> {/* Display the description */}
       <p>

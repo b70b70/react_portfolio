@@ -12,7 +12,7 @@ function ProjectDetail() {
   }
 
   return (
-    <div>
+    <div className="container text-center mt-5">
       <h2>{project.title}</h2>
       <p>
         <a href={project.deployedLink}>Deployed Version</a>
