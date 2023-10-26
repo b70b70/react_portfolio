@@ -9,7 +9,7 @@ function HomePage() {
           <div className="row">
             <div className="col-md-8">
               <h1 className="display-4">
-                <span className="text-decoration-underline">Your Name's</span> Dynamic
+                <span className="text-decoration-underline">Faheem's</span> Dynamic
                 Portfolio of Vision and Design Excellence
               </h1>
               <p className="lead">

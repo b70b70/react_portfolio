@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import pdfFile from '../assets/CV_Faheem_Ali_.pdf'; // Adjust the path accordingly
+
 
 function ContactPage() {
   const [name, setName] = useState('');
@@ -19,7 +21,7 @@ function ContactPage() {
           <h2>Contact Information</h2>
           <p>Email: faheemlfc@gmail.com</p>
           <p>
-            <a href="/path-to-your-cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={pdfFile} target="_blank" rel="noopener noreferrer">
               View My CV (PDF)
             </a>
           </p>
